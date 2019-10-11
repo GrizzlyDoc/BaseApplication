@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+  <TextView
+      android:id="@+id/main_fragment_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/unit_16"
+      android:layout_marginTop="@dimen/unit_16"
+      android:text="Accounts"
+      android:textColor="@color/white"
+      android:textSize="@dimen/unit_24_text"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:id="@+id/main_fragment_accounts_size"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/main_fragment_title"
+      android:layout_marginStart="@dimen/unit_16"
+      android:text=""
+      android:textColor="@color/whiteGrey"
+      android:textSize="@dimen/unit_14_text"
+      android:textStyle="bold"
+      />
+
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/accounts_content_recycler"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/main_fragment_accounts_size"
+      android:clipToPadding="false"
+      android:layout_marginTop="@dimen/unit_6"
+      />
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/add_item_fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginBottom="15dp"
+      android:layout_marginEnd="15dp"
+      android:clickable="true"
+      android:focusable="true"
+      android:src="@drawable/ic_add_white"
+      android:visibility="visible"
+      app:fabSize="normal"
+      tools:visibility="visible"
+      />
+</RelativeLayout>

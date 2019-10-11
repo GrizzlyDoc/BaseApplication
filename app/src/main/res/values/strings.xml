@@ -1,3 +1,10 @@
 <resources>
-  <string name="app_name">BaseApplication</string>
+  <string name="app_name">Myki Challenge</string>
+
+  <string name="nickname">Nickname</string>
+  <string name="username">Username</string>
+  <string name="password">Password</string>
+  <string name="website">Website</string>
+
+  <string name="hold_to_reveal_password">Hold to reveal password</string>
 </resources>

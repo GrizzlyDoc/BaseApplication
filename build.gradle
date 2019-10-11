@@ -15,7 +15,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
 
         // JUnit 5 Port that attaches to the Android Gradle Plugin tasks
         classpath 'de.mannodermaus.gradle.plugins:android-junit5:1.0.0-RC3'
